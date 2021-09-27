@@ -3,23 +3,19 @@
 function login($email, $wachtwoord) {
 
 
-$gebruikers = array[
+$gebruikers = array(
   "piet@worldonline.nl" => "doetje123",
   "klaas@carpets.nl" => "snoepje777",
   "truushendriks@wegweg.nl" => "arkiearkie201"
-];
-    
+);
+
 
 foreach ($gebruikers as $gebruiker => $waarde){
     if ($email == $inlog &&  $wachtwoord == $waarde){
         $inlog = true;
         echo "welkom gebruiker";
     }
-//    else {
-//        $inlog = false;
-//        echo "toegang geweigerd";
-//
-//    }
+
 
 }
 return ($inlog);
