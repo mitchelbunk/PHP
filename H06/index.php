@@ -15,6 +15,10 @@ if ($_POST['wachtwoord'] == "") {
     echo "je moet nog een wachtwoord invullen!";
     echo "<br><br><a href=\"H06.html\">Terug naar het formulier</a>";
 }
+echo $_POST['voornaam']."<br>";
+echo $_POST['adres']."<br>";
+echo $_POST['email']."<br>";
+echo $_POST['wachtwoord']."<br>";
 
 
 

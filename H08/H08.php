@@ -12,7 +12,7 @@ $gebruikers = array(
 
 foreach ($gebruikers as $gebruiker => $wachtwoord){
     echo $gebruiker.''.$wachtwoord.'<br />';
-    //$gebruiker === $mail;
+
 }
 
 
@@ -24,16 +24,6 @@ if($mail == ""){
     header("location: $url");
 }else{
 echo "hoi";
-    //welkom
+
 }
 
-//header("location: $url");
-
-//if ($_POST['email'] == "") {
-//
-//    echo "<br><br><a href=\"H08.html\">Terug naar het formulier</a>";
-//}
-//if ($_POST['wachtwoord'] == "") {
-//    echo "je moet nog een wachtwoord invullen!";
-//    echo "<br><br><a href=\"H08.html\">Terug naar het formulier</a>";
-//}

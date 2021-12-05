@@ -4,11 +4,6 @@
 
     <title>opdr6</title>
 
-
-
-
-
-
 </head>
 <body>
 
