@@ -31,6 +31,7 @@
 
 <html lang="en">
 
+
     <body>
         <h1><?php echo $message; ?></h1>
     <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">

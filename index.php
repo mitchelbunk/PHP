@@ -5,9 +5,8 @@
     <title>index</title>
 </head>
 <body>
-
+<!--
 <h3><a href="H01/H01.php">H1</a></h3>
-
 <h3><a href="H02/H02.php">H2</a></h3>
 <h3><a href="H03/H03.php">H3</a></h3>
 <h3><a href="H04/opdr1/H04.php">H4</a></h3>
@@ -19,13 +18,11 @@
 <h3><a href="H11/website.php">H11</a></h3>
 <h3><a href="PHPExperiments/experiment1.html">experiment1</a></h3>
 <h3><a href="website5/page1.php">experiment1</a></h3>
+<br>
+-->
+<h3>mijn <a href="Portfolio_Mitchel/portfolio.php">Portfolio</a></h3>
 
-<?php
 
-echo "HOMEPAGE";
-
-
-?>
 
 </body>
 </html>
