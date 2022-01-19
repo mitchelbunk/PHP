@@ -1,3 +1,7 @@
+
+
+
+
 document.getElementById("bl1").style.textAlign = "center";
 document.getElementById("bl1").style.backgroundColor = "cyan";
 document.getElementById("bl1").style.width = "100px";
