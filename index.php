@@ -20,7 +20,7 @@
 <h3><a href="website5/page1.php">experiment1</a></h3>
 <br>
 -->
-<h3>mijn <a href="Portfolio_Mitchel/portfolio.html">Portfolio</a></h3>
+<h3>mijn <a href="Portfolio_Mitchel/index.html">Portfolio</a></h3>
 
 
 
