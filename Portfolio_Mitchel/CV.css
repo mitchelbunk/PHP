@@ -1,7 +1,29 @@
 .title {
-    color: navy;
+    color: black;
     text-align: center;
 }
 body {
+    background-color: orangered;
 
+}
+#myimg1{
+    border-style: solid;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+}
+
+#table1{
+    float: right;
+    color: white;
+}
+
+#table2{
+    float: right;
+    margin-right: 50px;
+}
+.myDiv1 {
+    border: 5px outset blue;
+    background-color: lightblue;
+    text-align: center;
 }
