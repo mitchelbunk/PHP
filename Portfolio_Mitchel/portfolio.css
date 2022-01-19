@@ -1,3 +1,25 @@
-body {
-    background-color: dimgray;
+body { background-color: #46ff9e;
+
+}
+
+#myimg1 {
+    border-style: solid;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+}
+
+tr {
+    font-family: Arial, sans-serif;
+;
+}
+
+.myDiv1 {
+    border: 5px outset blue;
+    background-color: lightblue;
+    text-align: center;
+    }
+td {
+    font-family: Calibri, serif ;
+    font-size: x-large;
 }

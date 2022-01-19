@@ -6,7 +6,8 @@
 </head>
 <body>
     <header> opdr4</header>
-<h3><a href="../H01.php">click here to go back</a> </h3>
+
+        <h3><a href="../H01.php">click here to go back</a> </h3>
 
 <?php
 $a = "ik heb niet gefaald";
@@ -16,7 +17,6 @@ $c = "10000";
 echo $a . ". ik heb alleen " . $c . " manieren gevonden ". $b . ".";
 
 ?>
-
 
 </body>
 </html>
