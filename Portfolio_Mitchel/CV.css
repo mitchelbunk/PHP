@@ -1,47 +1,51 @@
-.title {
-    color: black;
-    text-align: center;
+h1 {
+    font-family: Calibri sans-serif;
+}
+h2 {
+
 }
 body {
-    background-color: orangered;
+    margin: 0;
+    background: green;
+    font-family: Calibri sans-serif;
+    font-weight: 300;
+
 
 }
 
-#table1{
-    float: right;
-    color: white;
-}
-
-#table2{
-    float: right;
-    margin-right: 50px;
-}
-.myDiv1 {
-    border: 5px outset blue;
-    background-color: lightblue;
-    text-align: center;
-}
-body { background-color: #46ff9e;
-
-}
-
-#myimg1 {
+.myimg1 {
     border-style: solid;
     text-align: right;
     float: right;
-    margin-right: 50px;
+    margin-left: 50px;
+}
+#myimg2 {
+    float: right;
 }
 
-tr {
-    font-family: Arial, sans-serif;
-;
-}
-
-.myDiv1 {
+#myDiv1 {
     border: 5px outset blue;
     background-color: lightblue;
     text-align: center;
 }
+
+.logo{
+    float: right;
+    padding: 10px 0;
+
+}
+
+#intro {
+    background-color: black;
+    font-family: Calibri sans-serif;
+    float: right;
+}
+tr {
+    font-family: Calibri, sans-serif;
+;
+}
+
+
 td {
     font-family: Calibri, serif ;
     font-size: x-large;
@@ -51,7 +55,7 @@ img{
     margin: 100px auto;
 }
 #container{
-    width: 40%;
+    width: 80%;
     margin: 0 auto;
 }
 header{
@@ -62,10 +66,7 @@ header::after{
     display: table;
     clear: both;
 }
-#logo{
-    float: left;
-    padding: 10px 0;
-}
+
 
 nav{
     float: right;
@@ -79,10 +80,35 @@ nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
+
+    position: relative;
 }
 
 nav a {
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 14px;
+
 }
+nav a:hover{
+    color: #000;
+
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: green;
+
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+nav a:hover::before{
+    width: 100%;
+
+}
+

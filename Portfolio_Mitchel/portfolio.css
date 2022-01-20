@@ -1,34 +1,64 @@
-body { background-color: #46ff9e;
+h1 {
+    font-family: Arial, serif;
+}
+h2 {
+
+}
+body {
+    margin: 0;
+    background: green;
+    font-family: Arial serif;
+    font-weight: 300;
+
 
 }
 
-#myimg1 {
+.myimg1 {
     border-style: solid;
     text-align: right;
-    float: right;
+    float: left;
     margin-right: 50px;
-}
-
-tr {
-    font-family: Arial, sans-serif;
-;
 }
 
 .myDiv1 {
     border: 5px outset blue;
     background-color: lightblue;
     text-align: center;
-    }
+}
+
+.logo{
+    float: left;
+    padding: 10px 0;
+
+}
+.text {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    font-family: Arial serif;
+}
+
+.intro {
+ background-color: black;
+    font-family: Arial serif;
+    float: right;
+}
+tr {
+    font-family: Arial, serif;
+;
+}
+
+
 td {
-    font-family: Calibri, serif ;
+    font-family: Arial, serif ;
     font-size: x-large;
 }
 img{
     box-sizing: border-box;
     margin: 100px auto;
 }
-#container{
-    width: 40%;
+.container{
+    width: 80%;
     margin: 0 auto;
 }
 header{
@@ -39,10 +69,7 @@ header::after{
     display: table;
     clear: both;
 }
-#logo{
-    float: left;
-    padding: 10px 0;
-}
+
 
 nav{
     float: right;
@@ -56,10 +83,44 @@ nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
+
+    position: relative;
 }
 
 nav a {
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 14px;
+
+}
+nav a:hover{
+    color: #000;
+
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: green;
+
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+nav a:hover::before{
+    width: 100%;
+
+}
+article {
+    font-size: 100%;
+    display: inline;
+    float: left;
+    margin: 15px;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: white;
 }
